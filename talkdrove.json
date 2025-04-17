@@ -1,0 +1,41 @@
+{
+    "bot-name": "MVELASE-MD",
+    "description": "a whatsapp bot created by mvelase technology",
+    "logo": "https://raw.githubusercontent.com/mvelase-ofc/MVELASE-MD/main/media/mvelase.png",
+    "keywords": ["MVELASE-MD"],
+    "documentation-link": "https://techsync-session-id8.onrender.com",
+    "owner-verification":"mvelaseaitechnology@gmail.com",
+  
+    "env": {
+    "SESSION_ID": {
+      "description": "Put your SESSION_ID here. Make sure it starts with mvelase-MD",
+      "value": "",
+      "required": true
+    },
+    "PREFIX": {
+      "description": "Mvelase command prefix, (e.g, . , !, & , @ etc)",
+      "value": ".",
+      "required": true
+    },
+    "MODE": {
+      "description": "Mvelase mode can be public, private, inbox, or groups (in lowercase) (e.g., public)",
+      "value": "private",
+      "required": true    
+    },
+    "BOT_NAME": {
+      "description": "write your bot name here (for example mvelase).",
+      "required": true,
+      "value": "mvelase"
+    },
+    "AUTO_TYPING": {
+      "description": "make it true if you want auto typing on your mvelase ai.",
+      "required": false,
+      "value": "false"
+    }, 
+    "OWNER_NUMBER": {
+      "description": "paste your whatsapp number you used to link the device",
+      "required": false,
+      "value": "263711337094"
+    }
+  }
+}
